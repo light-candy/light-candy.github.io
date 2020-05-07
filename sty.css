@@ -1,0 +1,155 @@
+@font-face {
+font-family: 'Century Gothic Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Century Gothic Regular'), url('GOTHIC.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Century Gothic Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Century Gothic Italic'), url('GOTHICI.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Century Gothic Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Century Gothic Bold'), url('GOTHICB.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Century Gothic Bold Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Century Gothic Bold Italic'), url('GOTHICBI.woff') format('woff');
+}
+/*reset*/
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p,
+a, abbr, acronym, address, big, cite, code, em, img,
+small, strike, strong, sub,
+b, u, i, center, ol, ul, li,
+fieldset, form, label, legend, caption,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+
+.container{
+    display:grid;
+    grid-template-columns:1.2fr minmax(320px, 4fr) 4.1fr;
+    background-color:#223942;
+}
+hr{
+border-top:2px solid #3b4357;
+border-right:0px;
+border-left:0px;
+border-bottom:0px;
+}
+.tapestry{
+grid-column:2/3;
+font-family: 'Century Gothic Regular';
+padding-top:65px;
+padding-right:10px;
+padding-left:10px;
+border-right:3px solid #242e4d;
+border-left:3px solid #242e4d;
+background-color:#091128;
+
+color:#fff;
+font-weight:700;
+}
+.title{
+text-align:center;
+font-size:25px;
+margin:5px;
+}
+.subtitle{
+text-align:center;
+font-size:17px;
+padding:5px 5px 7px 5px;
+}
+.main-text{
+text-align:left;
+font-size:12px;
+padding:10px;
+line-height:1.5
+}
+.heading{
+font-size:17px;
+text-align:center;
+padding:15px 5px 7px 5px;
+}
+.heading-2{
+font-size:17px;
+text-align:left;
+padding:15px 5px 7px 5px;
+}
+.abstract{
+text-align:left;
+font-size:12px;
+margin:5px;
+}
+.feature-text{
+text-align:left;
+font-size:12px;
+margin:7px;
+}
+.feature-heading{
+font-size:17px;
+text-align:left;
+margin:7px;
+}
+.social{
+padding:50px 20px 50px 20px;
+}
+.social-list{
+display:flex;
+flex-direction:row;
+justify-content:space-around;
+}
+.social-icon{
+height:20px;
+width:20px;
+}
+.features{
+display:flex;
+flex-flow:row wrap;
+padding-top:15px;
+}
+.feature-card{
+display:flex;
+flex-direction:row;
+align-items:center;
+flex:1 1 50%;
+}
+.feature-icon{
+height:40px;
+width:40px;
+padding:7px 5px 7px 7px;
+box-sizing:border-box;
+}

@@ -63,7 +63,8 @@ ol, ul {
     display:flex;
     flex-direction:row;
     justify-content:space-around;
-    background-color:#223942;
+    background-image:url("./backgrounds/background-8.jpg");
+    background-repeat:no-repeat;
    
 }
 hr{
@@ -80,8 +81,9 @@ padding-right:10px;
 padding-left:10px;
 border-right:3px solid #242e4d;
 border-left:3px solid #242e4d;
-background-color:#091128;
 
+background-image:url("./backgrounds/background-1.jpg");
+background-repeat:no-repeat;
 color:#fff;
 font-weight:700;
 }

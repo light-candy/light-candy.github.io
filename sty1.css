@@ -190,3 +190,17 @@ color:#fff;
 a:focus .social-icon{
 display:none;
 }
+.lang-en{
+display:flex;
+justify-content:center;
+padding:50px;
+}
+.lang{
+display:flex;
+justify-content:center;
+padding:20px;
+}
+.img-lang{
+height:25px;
+width:25px;
+}

@@ -1,0 +1,3 @@
+[submodule "portfolio-mockup"]
+	path = portfolio-mockup
+	url = https://github.com/light-candy/portfolio-mockup

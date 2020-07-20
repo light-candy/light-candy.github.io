@@ -1,2 +1,7 @@
 [build]
   publish = "public"
+
+[[redirects]]
+from = "/eng.html"
+to = "/eng"
+status = 200

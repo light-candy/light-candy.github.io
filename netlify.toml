@@ -5,3 +5,13 @@
 from = "/eng.html"
 to = "/eng"
 status = 200
+
+[[redirects]]
+from = "/index.html"
+to = "/"
+status = 200
+
+[[redirects]]
+from = "/plans.html"
+to = "/plans"
+status = 200
